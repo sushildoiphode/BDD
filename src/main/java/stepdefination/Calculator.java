@@ -20,10 +20,12 @@ public class Calculator {
 	@When("We add two numbers")
 	public void addNumbers() {
 		r=x+y;
+		
 	}
 	@Then("Addition result should be displayed")
 	public void displayedResult() {
 		System.out.println("Addtion of Two Number: "+r);
+		System.out.println("okkkkkkkkk");
 	}
 
 }
